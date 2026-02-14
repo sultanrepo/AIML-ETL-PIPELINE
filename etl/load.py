@@ -14,3 +14,4 @@ def upsert(cursor, table, columns, rows):
     """.format(table, col_str, placeholders, updates)
 
     cursor.executemany(sql, rows)
+# Loding the data to the target
