@@ -15,3 +15,4 @@ def upsert(cursor, table, columns, rows):
 
     cursor.executemany(sql, rows)
 # Loding the data to the target
+#List, TUples
